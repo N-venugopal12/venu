@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio - My Selected Work</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Syne:wght@600;700;800&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed-dim": "#c4c7c9",
+                        "tertiary-container": "#5e6163",
+                        "on-tertiary-fixed": "#191c1e",
+                        "surface": "#f8f9ff",
+                        "on-primary-fixed-variant": "#3323cc",
+                        "on-secondary-fixed-variant": "#3f465c",
+                        "secondary-container": "#dae2fd",
+                        "tertiary-fixed": "#e0e3e5",
+                        "on-surface-variant": "#464555",
+                        "on-error-container": "#93000a",
+                        "primary-fixed": "#e2dfff",
+                        "inverse-primary": "#c3c0ff",
+                        "on-tertiary-container": "#dadcde",
+                        "primary-container": "#4f46e5",
+                        "outline-variant": "#c7c4d8",
+                        "secondary-fixed-dim": "#bec6e0",
+                        "secondary": "#565e74",
+                        "error": "#ba1a1a",
+                        "on-primary-container": "#dad7ff",
+                        "primary": "#3525cd",
+                        "surface-tint": "#4d44e3",
+                        "surface-container": "#e5eeff",
+                        "primary-fixed-dim": "#c3c0ff",
+                        "on-primary-fixed": "#0f0069",
+                        "on-primary": "#ffffff",
+                        "inverse-surface": "#213145",
+                        "surface-container-highest": "#d3e4fe",
+                        "on-surface": "#0b1c30",
+                        "surface-variant": "#d3e4fe",
+                        "on-tertiary-fixed-variant": "#444749",
+                        "error-container": "#ffdad6",
+                        "on-background": "#0b1c30",
+                        "surface-bright": "#f8f9ff",
+                        "on-secondary-fixed": "#131b2e",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#cbdbf5",
+                        "on-secondary-container": "#5c647a",
+                        "outline": "#777587",
+                        "inverse-on-surface": "#eaf1ff",
+                        "surface-container-low": "#eff4ff",
+                        "background": "#f8f9ff",
+                        "surface-container-high": "#dce9ff",
+                        "tertiary": "#46494b",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed": "#dae2fd"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem",
+                        lg: "0.5rem",
+                        xl: "0.75rem",
+                        full: "9999px"
+                    },
+                    spacing: {
+                        unit: "8px",
+                        "sticky-nav-height": "80px",
+                        "gutter": "32px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "24px",
+                        "container-max": "1280px"
+                    },
+                    fontFamily: {
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-md": ["Syne", "sans-serif"],
+                        "headline-lg": ["Syne", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "display": ["Syne", "sans-serif"],
+                        "label-sm": ["JetBrains Mono", "monospace"],
+                        "headline-lg-mobile": ["Syne", "sans-serif"]
+                    },
+                    fontSize: {
+                        "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "headline-md": ["32px", { lineHeight: "1.3", fontWeight: "600" }],
+                        "headline-lg": ["48px", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700" }],
+                        "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "display": ["80px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "800" }],
+                        "label-sm": ["12px", { lineHeight: "1.0", letterSpacing: "0.05em", fontWeight: "500" }],
+                        "headline-lg-mobile": ["32px", { lineHeight: "1.2", fontWeight: "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen font-body-md selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full h-sticky-nav-height bg-surface/90 backdrop-blur-md border-b border-outline-variant z-50 transition-all duration-300">
+<div class="flex justify-between items-center px-margin-desktop max-w-container-max mx-auto w-full h-sticky-nav-height">
+<!-- Brand -->
+<a class="font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors" href="#">
+                Portfolio
+            </a>
+<!-- Links (Desktop) -->
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors hover:scale-[1.01]" href="./index.html">Home</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors hover:scale-[1.01]" href="./about.html">About</a>
+<a class="font-label-sm text-label-sm text-primary border-b-2 border-primary pb-1 hover:scale-[1.01]" href="./portfolio.html">Portfolio</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors hover:scale-[1.01]" href="#">Case Studies</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors hover:scale-[1.01]" href="./research.html">Research</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors hover:scale-[1.01]" href="./contact.html">Contact</a>
+</div>
+<!-- CTA (Desktop) -->
+<a class="hidden md:inline-flex items-center justify-center bg-primary text-on-primary font-label-sm text-label-sm px-6 py-3 rounded-xl hover:scale-105 active:scale-95 transition-transform shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_32px_rgba(15,23,42,0.08)]" href="#">
+                Let's Talk
+            </a>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-on-surface p-2">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="pt-[160px] pb-[160px] px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Header Section -->
+<header class="mb-24 md:mb-32 max-w-3xl">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface mb-6">
+                My Selected Work
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                A collection of UI, UX, graphic design, and digital experiences crafted with precision, focus, and a deep understanding of user needs.
+            </p>
+</header>
+<!-- Filters -->
+<div class="flex flex-wrap gap-4 mb-16">
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-primary text-on-primary transition-all duration-300">All</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">UI Design</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">UX Design</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">Web Design</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">Mobile App</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">Graphic Design</button>
+<button class="font-label-sm text-label-sm px-4 py-2 rounded bg-surface-container hover:bg-secondary-container/50 text-on-surface transition-all duration-300">Research</button>
+</div>
+<!-- Project Grid (Bento/Masonry Hybrid) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Project 1 (Large) -->
+<article class="md:col-span-8 group rounded-xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_32px_rgba(15,23,42,0.08)] hover:scale-[1.01] transition-all duration-500 overflow-hidden flex flex-col h-full">
+<div class="relative w-full aspect-[16/9] md:aspect-auto md:h-[400px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A sleek, modern mobile banking application interface displayed on a high-end smartphone mockup. The UI features a clean white background with deep indigo accents, large readable typography, and soft shadows. The setting is a minimalist workspace with soft, diffused daylight creating a premium, trustworthy mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPCSpgcoM6YQKFT95MPnLP_4qferFoVAE2lzIsFCZRNOoWKV1DtR1kDO_5tECDrI6_anUa5jymRC542Ks6oQTUck2wmxiUTkpuncEHMJ8eno7gz0jA6BqpAsRcvYtM-Rfnel11kkRYCPUW7_wn_BZBuxUFplIkohx-BS6DMeOoRNtEWFa5dqu10DuayJnBabxnCT991nw3twY8rh5zojLHAXfUEZY4M4_4arP7mZ2bnQPMhuBU0M-B"/>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">Mobile App</span>
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">UI Design</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">Fintech Redesign</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Streamlining the mobile banking experience for a new generation of users, focusing on clarity and rapid transaction flows.</p>
+<a class="inline-flex items-center gap-2 font-label-sm text-label-sm text-primary hover:text-on-primary-fixed-variant transition-colors w-max" href="#">
+                        View Project
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Project 2 (Tall) -->
+<article class="md:col-span-4 group rounded-xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_32px_rgba(15,23,42,0.08)] hover:scale-[1.01] transition-all duration-500 overflow-hidden flex flex-col h-full">
+<div class="relative w-full aspect-square md:aspect-auto md:h-[300px] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A high-fidelity wireframe and user journey map spread across a digital canvas. The visual style is highly analytical and structured, using subtle shades of gray and crisp indigo lines. The lighting is even and bright, emphasizing clarity, logic, and comprehensive user experience research methodologies." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSbP5MHBkAIou4L0ZKFT08Gjjb6149j_wE4hQJNOF5eYmeF7gQv7Rjnfw3yR2GbX9y0vJQCjuBxV2K0VAD3541DrFwO7-RzSlwD_Ibo8qpr5k_p3Jo1zxfdZyc1ZMK5u1gZzSjjRAfXF4m5wc5VxLksYOcxHHOlw8zSs8XOLvL4DmtMwxkq1Kus0dnm39ViJaoGpRxxHrYxRVWuL4rYHeNtDAFhhYnW4cJIafh_nPInMIUMR5Jqu-J"/>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">UX Design</span>
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">Research</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">Healthcare Portal UX</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Comprehensive research and journey mapping to reduce friction in patient scheduling.</p>
+<a class="inline-flex items-center gap-2 font-label-sm text-label-sm text-primary hover:text-on-primary-fixed-variant transition-colors w-max mt-auto" href="#">
+                        View Project
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Project 3 (Standard) -->
+<article class="md:col-span-6 group rounded-xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_32px_rgba(15,23,42,0.08)] hover:scale-[1.01] transition-all duration-500 overflow-hidden flex flex-col h-full">
+<div class="relative w-full aspect-video overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A striking e-commerce website design displayed on a sleek laptop screen. The design features a minimalist, editorial layout with large, high-quality product photography and sharp, bold typography. The overall aesthetic is premium, airy, and sophisticated, reflecting a modern light-mode theme." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpHGAw2hR_OG_dCRdDXKNpFU_7sO5ATB_QUArYEyOZptDL764Srp99cwtSV6y0oT1FbIe87h1Pn7LERVZk1O9YwdSPCCCO6wmcJNWBOEytk4UJHib97PUX_pGe29YyTrVMBnNJOKlNJA9FK4HKbUE7T68AlCPAZFpLubeIWGmGjIGSlrTz8U7h57wLu_1WnSiMeIbQht3ZmgB-Hh0CwCcwT3z1OJQp7a-xu1pmBzb97nhRpuWCRoRx"/>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">Web Design</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">Editorial E-Commerce</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">A visually led shopping experience for a luxury apparel brand, blending content and commerce.</p>
+<a class="inline-flex items-center gap-2 font-label-sm text-label-sm text-primary hover:text-on-primary-fixed-variant transition-colors w-max" href="#">
+                        View Project
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Project 4 (Standard) -->
+<article class="md:col-span-6 group rounded-xl bg-surface-container-lowest shadow-[0_4px_20px_rgba(15,23,42,0.05)] hover:shadow-[0_12px_32px_rgba(15,23,42,0.08)] hover:scale-[1.01] transition-all duration-500 overflow-hidden flex flex-col h-full">
+<div class="relative w-full aspect-video overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" data-alt="A vibrant digital branding identity presentation featuring custom iconography, color palettes, and typographic scales. The aesthetic is clean and contemporary, utilizing a crisp white background with bold, energetic splashes of secondary colors to create a dynamic yet professional mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0UH3tWax5aw_sujnioShjfeQZn155c5jHJ2W5UUyPrS19orpfZt7LWxO45ypSebgiZ89dlhO2mbuMhH3KTFq7q2OuXkJHU2dVd68dNIjIiPSDQdcYcRec6fT-htjexz7qfW1_btCcYvDDulqouJhdkUe_kNNkqq1-NFR-8Zyl1lar5vFpW2vSpHEgenbVXOs5_KO0FaYdjoLkFijpDPi9SKKE1fER9ju-it5eEePMbvbBdTpu0Chp"/>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex items-center gap-3 mb-4">
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">Graphic Design</span>
+<span class="bg-surface-container-high px-3 py-1 rounded font-label-sm text-label-sm text-on-surface-variant">Branding</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">SaaS Brand Identity</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">Establishing a cohesive, scalable visual language for an emerging enterprise software platform.</p>
+<a class="inline-flex items-center gap-2 font-label-sm text-label-sm text-primary hover:text-on-primary-fixed-variant transition-colors w-max" href="#">
+                        View Project
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 bg-surface-container-low mt-24">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto">
+<!-- Brand/Copyright -->
+<div class="col-span-1 md:col-span-2">
+<p class="font-syne font-bold text-headline-md text-on-surface mb-4">Portfolio</p>
+<p class="font-body-md text-body-md text-on-surface-variant">© 2024 UI/UX Portfolio. Designed with precision.</p>
+</div>
+<!-- Links Column 1 -->
+<div class="col-span-1 flex flex-col gap-4">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors opacity-80 hover:opacity-100" href="#">Home</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors opacity-80 hover:opacity-100" href="#">About</a>
+<a class="font-label-sm text-label-sm text-primary transition-colors opacity-80 hover:opacity-100" href="#">Portfolio</a>
+</div>
+<!-- Links Column 2 -->
+<div class="col-span-1 flex flex-col gap-4">
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors opacity-80 hover:opacity-100" href="#">Case Studies</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors opacity-80 hover:opacity-100" href="#">Research</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors opacity-80 hover:opacity-100" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>
